@@ -9,7 +9,6 @@ public class Main4 {
 
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     StringTokenizer st = new StringTokenizer(br.readLine());
-    System.out.println(Double.parseDouble(st.nextToken()) / Double.parseDouble(st.nextToken()));
+    System.out.println(Integer.parseInt(st.nextToken()) * Integer.parseInt(st.nextToken()));
   }
 }
-
